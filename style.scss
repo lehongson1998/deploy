@@ -285,8 +285,10 @@ textarea {
   }
   .signup {
     padding: 1.5rem;
+    border-radius: 0%;
     &-social {
       flex-direction: column;
+      margin-bottom: 1rem;
       &-item {
         width: 100%;
         border-color: $primary;
@@ -306,8 +308,13 @@ textarea {
     &-form {
       &-submit {
         width: 100%;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
         border-radius: 10rem;
+      }
+      &-term {
+        label {
+          margin-bottom: 1.5rem;
+        }
       }
     }
 
